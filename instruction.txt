@@ -1,0 +1,136 @@
+<!--
+
+1) Start the HTML document with `<!DOCTYPE html>` and open `<html>`.
+
+2) Inside the `<body>`:
+
+a) Add a heading `<h2>` with text: "JavaScript String Methods".
+
+b) Add a paragraph `<p>` with text: "Basic Methods".
+
+3) Add a `<script>` tag to write JavaScript.
+
+4) Create a string variable:
+
+a) `str = "AmAzInG"`
+
+5) Show basic string methods using `document.write()`:
+
+a) Print `str.toUpperCase()` to convert to uppercase.
+
+b) Print `<br>` to move to the next line.
+
+c) Print `str.toLowerCase()` to convert to lowercase.
+
+d) Print `<br>` again.
+
+e) Print `str.startsWith('i')` to check if the string starts with 'i' (true/false).
+
+f) Print `<br>` again.
+
+6) Test method using Regular Expression:
+
+a) Create a string `str1 = "I learnt about Methods"`.
+
+b) Create a pattern using `new RegExp("about")`.
+
+c) Use `.test()` to check if the pattern exists in the string and store result in `res`.
+
+d) Print `res` (true/false).
+
+7) Close all tags properly.
+
+-->
+
+
+
+
+<!--
+
+1) Start the HTML document with `<!DOCTYPE html>` and open `<html>`.
+
+2) Inside the `<body>`:
+
+a) Add a heading `<h2>` with text: "JavaScript For Loop".
+
+b) Add an empty paragraph `<p id="demo"></p>` to display the output.
+
+3) Add a `<script>` tag to write JavaScript.
+
+4) Create an array named `fruits` with multiple fruit names.
+
+5) Create a variable `text` as an empty string:
+
+a) This will store the final output.
+
+6) Use a `for` loop to go through the array:
+
+a) Start `i` from 0.
+
+b) Run the loop while `i < fruits.length`.
+
+c) Increase `i` by 1 each time.
+
+7) Inside the loop:
+
+a) Add each fruit name to `text`.
+
+b) Add `"<br>"` after each fruit to print on a new line.
+
+8) After the loop, display the full text:
+
+a) Use `document.getElementById("demo").innerHTML = text;`
+
+9) Close all tags properly.
+
+-->
+
+
+
+
+
+<!--
+
+1) Start the HTML document with `<!DOCTYPE html>` and open `<html>`.
+
+2) Inside the `<body>`:
+
+a) Create an empty paragraph `<p id="demo"></p>` to display the output.
+
+3) Add a `<script>` tag to write JavaScript.
+
+4) Create a variable `day`:
+
+a) This will store the name of the current day.
+
+5) Use a `switch` statement to check today's day number:
+
+a) Get the day number using `new Date().getDay()`.
+
+b) Possible values are 0 to 6.
+
+6) Add cases in the switch:
+
+a) Case 0 → set `day = "Sunday"` and use `break`.
+
+b) Case 1 → set `day = "Monday"` and use `break`.
+
+c) Case 2 → set `day = "Tuesday"` and use `break`.
+
+d) Case 3 → set `day = "Wednesday"` and use `break`.
+
+e) Case 4 → set `day = "Thursday"` and use `break`.
+
+f) Case 5 → set `day = "Friday"` and use `break`.
+
+g) Case 6 → set `day = "Saturday"`.
+
+7) Display the final message on the webpage:
+
+a) Use `document.getElementById("demo").innerHTML`
+
+b) Show: `"Today is " + day`
+
+8) Close all tags properly.
+
+-->
