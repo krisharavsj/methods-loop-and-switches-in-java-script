@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Ice Cream Shop</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #fff4f8;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #d63384;
+        }
+
+        .menu {
+            width: 500px;
+            margin: auto;
+        }
+
+        .item {
+            background-color: white;
+            padding: 15px;
+            margin: 12px;
+            border-radius: 10px;
+            border: 2px solid pink;
+        }
+
+        .item:hover {
+            background-color: #ffe0ed;
+        }
+
+        .item h2 {
+            color: #8e44ad;
+        }
+
+        .special {
+            color: red;
+            font-weight: bold;
+        }
+
+        .item p:first-letter {
+            font-size: 25px;
+            color: #e91e63;
+        }
+
+        .item h2+p {
+            color: #555;
+        }
+
+        .item h2~p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🍦 My Ice Cream Shop 🍦</h1>
+
+    <div class="menu">
+
+        <div class="item">
+            <h2>Vanilla</h2>
+            <p>Classic creamy vanilla ice cream.</p>
+            <p>₹80</p>
+        </div>
+
+        <div class="item special">
+            <h2>Chocolate</h2>
+            <p>Rich and delicious chocolate flavour.</p>
+            <p>₹100</p>
+        </div>
+
+        <div class="item">
+            <h2>Strawberry</h2>
+            <p>Fresh and fruity strawberry ice cream.</p>
+            <p>₹90</p>
+        </div>
+
+        <div class="item">
+            <h2>Mango</h2>
+            <p>Sweet and refreshing mango flavour.</p>
+            <p>₹100</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

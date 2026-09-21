@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Donation Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eaf6ff;
+            padding: 30px;
+        }
+
+        form {
+            width: 550px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2471a3;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2471a3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <h1>📚 Book Donation Form</h1>
+
+        <label>Donor Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Book Title</label>
+        <input type="text" placeholder="Enter book title">
+
+        <label>Author</label>
+        <input type="text" placeholder="Enter author name">
+
+        <label>Book Category</label>
+        <select>
+            <option>Fiction</option>
+            <option>Science</option>
+            <option>History</option>
+            <option>Comics</option>
+            <option>Education</option>
+        </select>
+
+        <label>Preferred Drop-off Day</label>
+        <input type="radio" name="day"> Monday
+        <input type="radio" name="day"> Wednesday
+        <input type="radio" name="day"> Friday
+
+        <label>Book Condition</label>
+        <input type="checkbox"> Good condition
+        <input type="checkbox"> Like new
+
+        <label>Extra Notes</label>
+        <textarea placeholder="Write any additional information"></textarea>
+
+        <input type="submit" value="Donate Book">
+
+    </form>
+
+</body>
+
+</html>
