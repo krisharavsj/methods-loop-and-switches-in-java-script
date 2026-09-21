@@ -1,0 +1,158 @@
+<html>
+<head>
+    <title>My Ocean World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">Ocean World</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Animals</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container py-5">
+    <h1 class="text-center">Welcome to My Ocean World</h1>
+
+    <div class="d-flex justify-content-center my-4">
+        <div class="spinner-border text-primary"></div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Dolphin</h3>
+                    <p class="card-text">Dolphins are intelligent marine mammals.</p>
+                    <button class="btn btn-primary">Explore</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Sea Turtle</h3>
+                    <p class="card-text">Sea turtles spend most of their lives in the ocean.</p>
+                    <button class="btn btn-primary">Explore</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Octopus</h3>
+                    <p class="card-text">Octopuses are fascinating animals with eight arms.</p>
+                    <button class="btn btn-primary">Explore</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="mt-5">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>''',
+
+"06_my_study_progress_dashboard.html": r'''<!DOCTYPE html>
+<html>
+<head>
+    <title>My Study Progress Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <div class="p-5 bg-primary text-white rounded mb-4">
+        <h1>My Study Progress Dashboard</h1>
+        <p>Track your learning progress and subjects.</p>
+    </div>
+
+    <div class="mb-4">
+        <button class="btn btn-primary m-1">Maths</button>
+        <button class="btn btn-success m-1">Science</button>
+        <button class="btn btn-warning m-1">English</button>
+        <button class="btn btn-info m-1">Computer Science</button>
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Maths <span class="badge bg-primary">12 lessons</span></h3>
+                    <p>Progress</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Science <span class="badge bg-success">10 lessons</span></h3>
+                    <p>Progress</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 65%;">65%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3>English <span class="badge bg-warning text-dark">8 lessons</span></h3>
+                    <p>Progress</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning text-dark" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Computer Science <span class="badge bg-info">15 lessons</span></h3>
+                    <p>Progress</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

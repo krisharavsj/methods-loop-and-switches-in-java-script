@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Methods and Loops</title>
+</head>
+
+<body>
+    <h1>Methods and Loops</h1>
+    <h2>Random Numbers</h2>
+    <p id="numbers"></p>
+
+    <h2>Current Date</h2>
+    <p id="date"></p>
+
+    <h2>Rounded Random Number</h2>
+    <p id="rounded"></p>
+
+    <h2>Switch Example</h2>
+    <p id="day"></p>
+
+    <script>
+        let numbers = [];
+        for (let i = 0; i < 10; i++) {
+            numbers.push(Math.floor(Math.random() * 100) + 1);
+        }
+
+        document.getElementById("numbers").innerHTML = numbers.join(", ");
+
+        let today = new Date();
+        document.getElementById("date").innerHTML = today.toDateString();
+
+        let randomNumber = Math.random() * 100;
+        document.getElementById("rounded").innerHTML = Math.round(randomNumber);
+
+        let dayNumber = today.getDay();
+        let dayName;
+
+        switch (dayNumber) {
+            case 0:
+                dayName = "Sunday";
+                break;
+            case 1:
+                dayName = "Monday";
+                break;
+            case 2:
+                dayName = "Tuesday";
+                break;
+            case 3:
+                dayName = "Wednesday";
+                break;
+            case 4:
+                dayName = "Thursday";
+                break;
+            case 5:
+                dayName = "Friday";
+                break;
+            case 6:
+                dayName = "Saturday";
+                break;
+        }
+
+        document.getElementById("day").innerHTML = dayName;
+    </script>
+</body>
+
+</html>
